@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="header_h1">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/pink</item>
+        <item name="android:textColor">@color/indigo</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/padding_top_big</item>
+        <item name="android:paddingBottom">@dimen/padding_bottom_small</item>
+        <item name="android:paddingStart">@dimen/padding_primary</item>
+        <item name="android:paddingEnd">@dimen/padding_primary</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="header_h2">
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_primary</item>
+    </style>
+    <style name="main_text">
+        <item name="android:textSize">@dimen/text_size_primary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColorLink">?attr/colorSecondary</item>
+        <item name="android:gravity">start|top</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_primary</item>
+    </style>
+    <style name="edit_text">
+        <item name="android:textSize">@dimen/text_size_primary</item>
+        <item name="android:hint">Default hint of EditText</item>
+        <item name="android:gravity">start|bottom</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_primary</item>
+        <item name="android:padding">@dimen/padding_primary</item>
+    </style>
+    <style name="button">
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:text">Button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/indigo</item>
+        <item name="android:textColor">@color/pink</item>
+        <item name="android:layout_margin">@dimen/margin_primary</item>
+        <item name="android:paddingTop">@dimen/padding_primary</item>
+        <item name="android:paddingBottom">@dimen/padding_primary</item>
+        <item name="android:paddingStart">@dimen/padding_start_end_big</item>
+        <item name="android:paddingEnd">@dimen/padding_start_end_big</item>
+    </style>
+</resources>
